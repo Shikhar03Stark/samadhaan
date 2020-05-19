@@ -1,0 +1,47 @@
+body{
+    margin: 0;    
+    padding: 0;
+}
+.header{
+    width: 100%;
+    color: white;
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    font-size: 48px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.main{
+    background-color: blueviolet;
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+}
+input[type=submit] {
+    background-color: blueviolet;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.container{
+    text-align: center;
+    font-size: 24px;
+}
+
+table{
+    margin-top: 50px;
+    background-color: rgb(231, 205, 255);
+    width: 100%;
+    text-align: center;
+}
+th{
+    background-color: blueviolet;
+}
+td{
+    border: 1px solid black;
+    height: 70px;
+    overflow-y: scroll;
+}
